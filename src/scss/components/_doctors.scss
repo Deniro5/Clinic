@@ -1,0 +1,92 @@
+.doctors-container {
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 100px;
+
+  .avatar-img {
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom:30px;
+    width: 100px;
+    height: 100px;
+  }
+
+  .name,
+  .profession {
+    margin-left: 24px;
+    margin-bottom: 8px;
+  }
+
+  .name {
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  .border {
+    display: block;
+    width: 80px;
+    height: 3px;
+    background: #3366CC;
+    margin: 20px auto;
+  }
+
+  .doctors {
+    margin-top: 18px;
+    margin-bottom: 18px;
+
+    p {
+      text-align: left;
+      margin-left: 0;
+      width: 50%;
+    }
+
+    button {
+      &:hover,
+      &:active {
+        background-color: white !important;
+      }
+    }
+    .show-more-container {
+      font-size: 16px;
+      margin-left: 11px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    p {
+      width: 100%;
+    }
+  }
+
+  h1 {
+    margin-top: 60px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  h4 {
+    text-align: center;
+    margin-bottom: 80px;
+  }
+
+  h4 {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 40px;
+  }
+
+  @media only screen and (max-width: 768px) {
+    h4 {
+      width: 100%;
+    }
+  }
+
+
+}

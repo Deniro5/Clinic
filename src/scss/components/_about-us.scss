@@ -1,0 +1,90 @@
+.about-us {
+  color: #182130;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.375;
+
+  .banner-container {
+    width: 100%;
+    height: 400px;
+    .top-banner {
+      margin: 0 auto;
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      background-image: url(https://www.petalmd.com/hubfs/_PetalMD_Sept2018/Banners/about-header.png);
+      .text-container {
+        padding: 0 60px;
+        text-align: left;
+        h1 {
+          font-size: 43px;
+          font-weight: 700;
+          color: #224B96;
+          text-align: left;
+          line-height: 1.2;
+          margin: 0 0 20px;
+        }
+        p {
+          font-size: 20px;
+          width: 90%
+        }
+
+        @media screen and (min-width: 900px) {  /* -- If the view port is less than 350px wide (portrait on phone) then display the following styles -- */
+          p {
+            width: 55%;
+          }
+       }
+      }
+    }
+  }
+  .custom-widget {
+    margin: 95px auto;
+
+    .left-text {
+      
+      padding: 0 60px;
+      h2 {
+        font-size: 43px;
+        font-weight: 700;
+        color: #224B96;
+      }
+      p {
+        margin-bottom: 10px;
+      }
+    }
+
+    img {
+      margin: 0 60px 20px;
+      height: 80%;
+      width: 80%;
+    }
+
+  }
+
+  .awards-recognition {
+    background: #F7F9FD;
+    padding: 40px;
+    .title {
+      text-align: center;
+      font-weight: 400;
+      font-family: 'Gotham A', 'Gotham B';
+      font-size: 43px;
+      color: #224B96;
+      margin-top: 20px;
+      margin-bottom: 30px;
+    }
+
+    .single-award-container {
+      width: 100%;
+      margin: 25px auto;
+      display: flex;
+      justify-content: space-between;
+      img {
+        width: 55%;
+      }
+      .award-description {
+        width: 35%;
+      }
+    }
+  }
+}

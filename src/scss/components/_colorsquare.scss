@@ -1,0 +1,45 @@
+.colorSquare {
+    width: 90%;
+    max-width:325px;
+    margin:20px;
+    border: 1px black solid;
+    color:white;
+    border-radius: 5px;
+    line-height: 20px;
+}
+
+.colorSquareTitle {
+    font-size:30px;
+    margin:0px;
+    margin-top:15px;
+}
+
+.colorSquareDivider {
+    margin: 0px;
+
+}
+
+.colorSquareBody {
+    margin:10px;
+    margin-top:15px;
+    margin-bottom:5px;
+    height:145px;
+
+}
+
+.colorSquareBtn {
+    height:30px;
+    font-size:15px;
+    color:white;
+    border: white 2px solid;
+    font-weight:bold;
+    margin-bottom:15px;
+    transition:0.5s;
+    cursor: pointer;
+}
+
+.colorSquareBtn:hover {
+    border: rgb(255, 238, 141) 2px solid;
+    color:rgb(255, 246, 192) ;
+
+}

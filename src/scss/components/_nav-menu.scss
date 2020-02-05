@@ -1,0 +1,53 @@
+.nav-menu {
+    background:rgb(226, 252, 252);
+    text-align:center;
+}
+
+.nav-menu-1 {
+    background:#3366CC;
+    text-align:center;
+    color:white;
+    height:51px;
+}
+
+.navText {
+    display:inline;
+}
+
+.navIcon {
+    margin-top:4px;
+    margin-right:5px;
+}
+
+.navList {
+    list-style-type: none;
+}
+
+.navList li {
+    display:inline-block;
+    height:50px;
+    line-height:50px;
+    padding: 0px 15px;
+    cursor: pointer;
+    font-size:15px;
+    transition:0.5s;
+}
+
+.navList li:hover {
+    cursor: pointer;
+    background:#003399;
+}
+
+.navLogo {
+    float: left;
+    margin-left:25px;
+    margin-top:8px;
+    cursor: pointer;
+}
+
+.navMenu {
+    float: right;
+    margin-right:25px;
+    cursor: pointer;
+    margin-top:8px;
+ }

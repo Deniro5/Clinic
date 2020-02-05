@@ -1,0 +1,65 @@
+.writeReviewContent {
+	width: 85%;
+	max-width: 800px ;
+	height: 300px;
+	padding: 12px 20px;
+	box-sizing: border-box;
+	border: 1px solid black;
+	border-radius: 4px;
+	background-color: white;
+	resize: none;	
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 35px;
+}
+
+.writeReviewContent:hover {
+border: 1px solid grey;
+}
+
+.writeReviewContent:focus {
+border: 1px solid black;
+}
+
+
+
+.writeReviewControls { 
+margin: 40px 20px;
+border: 1px solid grey;
+border-radius: 4px;
+background: white;
+transition-timing-function: linear;
+transition:0.3s;
+padding: 5px 20px;
+}
+
+.writeReviewControls:hover { 
+cursor: pointer;
+background:rgb(248, 248, 248);
+}
+
+.writeReviewButton {
+margin:auto
+}
+
+.writeReviewField {
+	border-radius: 4px;
+	margin-top:-5px;
+	margin-bottom:20px;
+	display: block;
+	margin-left :auto;
+	margin-right: auto; 
+	border: 1px solid black;
+	padding: 6px 10px;
+	text-align:center;
+}
+
+.writeReviewField:hover {
+	border: 1px solid grey;
+	}
+	
+	.writeReviewField:focus {
+	border: 1px solid black;
+	}
+	
