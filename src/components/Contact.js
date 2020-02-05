@@ -1,9 +1,9 @@
-import React, { Component, Fragment } from 'react';
+import React, {Component} from 'react';
 import Imgwithtext from './Imgwithtext'
 import Grid from '@material-ui/core/Grid';
 import TextField from '@material-ui/core/TextField';
 
-class Colorsquare extends Component {
+class Contact extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -22,7 +22,6 @@ class Colorsquare extends Component {
 
   render(props) {
     return (
-      <Fragment>
         <div className = "contactContainer">
             <Imgwithtext src = "../img/contact.jpg" text = ""/>
             <h1> Get in Touch</h1>
@@ -72,9 +71,8 @@ class Colorsquare extends Component {
               </Grid>
             </Grid>
         </div>
-      </Fragment>
     );
   }
 }
 
-export default Colorsquare;
+export default Contact;

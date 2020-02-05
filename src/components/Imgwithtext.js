@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 
@@ -18,14 +18,12 @@ class Imgwithtext extends React.Component {
   render(props) {  
    
       return (
-         <Fragment>
             <div class="textImgContainer">
               <img src={this.props.src} alt="Snow" style={{width:"100%", maxHeight:340, minHeight:180}}/>
               <div className="textImgCentered">
                 <p> {this.props.text} </p>
               </div>
             </div>
-         </Fragment>
      );
 }
 

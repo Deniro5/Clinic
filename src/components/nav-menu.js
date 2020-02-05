@@ -1,4 +1,4 @@
-import React, {Fragment, Component } from 'react';
+import React, {Component } from 'react';
 import Grid from '@material-ui/core/Grid';
 import Hidden from '@material-ui/core/Hidden';
 import Drawer from '@material-ui/core/Drawer';
@@ -106,7 +106,6 @@ class NavMenu extends Component {
   );
 
     return (
-      <Fragment>
        <div className="nav-menu-1">
        <Grid container spacing={0} align = "center">
           <Grid item xs={6} sm = {4} md = {4} lg = {6}>
@@ -139,7 +138,6 @@ class NavMenu extends Component {
           </Grid>
        </Grid>
      </div>
-     </Fragment>
     );
   }
 }

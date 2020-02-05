@@ -12,11 +12,9 @@ class Home extends Component {
     return (
       <Fragment>
         <Slideshow/>
-
         <h1> What we are offering</h1>
         <div className="border-home"> </div>
         <h4> Our ophthalmologists, optometrists and staff are committed to delivering a professional and enjoyable patient experience. </h4>
-
         <Grid container spacing={0} align = "center" className = "colorSquareGrid">
         <Grid item xs={12} sm = {6} md = {3}>
             <Colorsquare title = "Physiology" color = "teal" body = "Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."/>
@@ -31,7 +29,6 @@ class Home extends Component {
             <Colorsquare title = "Rehab" color = "darkred" body = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud."/>
         </Grid>
         </Grid>
-
         <Grid container spacing={0} align = "center" className = "middleGrid">
         <Grid item xs={12} sm = {6} md = {8}>
             <Testimonial text = "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo." name="- Christopher Greene (Patient)" img="../img/profile1.jpg" />

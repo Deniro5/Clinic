@@ -1,11 +1,9 @@
-import React, { Component, Fragment } from 'react';
+import React, { Component } from 'react';
 
 class Hours extends Component {
 
   render(props) {
-
     return (
-      <Fragment>
         <div className = "hoursContainer"> 
             <p className = "hoursTitle"> Hours of Operation</p>
             <hr/>
@@ -23,7 +21,6 @@ class Hours extends Component {
             <hr/>
             <p className = "hoursBody"> Sunday: 7:00 - 22:00</p>
         </div>
-      </Fragment>
     );
   }
 }

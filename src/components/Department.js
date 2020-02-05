@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from 'react';
+import React, { Component} from 'react';
 import Imgwithtext from './Imgwithtext'
 import Grid from '@material-ui/core/Grid'; 
 
@@ -43,7 +43,6 @@ class Department extends Component {
     tabclasses[this.state.curr] += " selectedTab"
 
     return (
-      <Fragment>
         <div className = "departmentContainer">
             <Imgwithtext src = "../img/department.jpg" text = ""/>
             <h1> Our Departments</h1>
@@ -95,9 +94,7 @@ class Department extends Component {
   
               </div>
             </div>
-         
         </div>
-      </Fragment>
     );
   }
 }
