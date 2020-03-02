@@ -114,12 +114,12 @@ class NavMenu extends Component {
           <Grid item xs={6} sm = {8} md = {8} lg = {6}>
               <Hidden smDown>
               <list className = "navList">
-                <li onClick = {this.reroute.bind(this, "/")}> HOME </li> 
-                <li onClick = {this.reroute.bind(this, "/about-us")}> ABOUT US </li>
-                <li onClick = {this.reroute.bind(this, "/doctors")}> DOCTORS  </li>
-                <li onClick = {this.reroute.bind(this, "/departments")}> DEPARTMENTS </li>
-                <li onClick = {this.reroute.bind(this, "/careers")}> CAREERS </li>
-                <li onClick = {this.reroute.bind(this, "/contact-us")}> CONTACT US </li>
+                <li onClick = {this.reroute.bind(this, "/")}> Home </li> 
+                <li onClick = {this.reroute.bind(this, "/about-us")}> About Us </li>
+                <li onClick = {this.reroute.bind(this, "/doctors")}> Doctors  </li>
+                <li onClick = {this.reroute.bind(this, "/departments")}> Departments </li>
+                <li onClick = {this.reroute.bind(this, "/careers")}> Careers </li>
+                <li onClick = {this.reroute.bind(this, "/contact-us")}> Contact Us </li>
               </list>
               </Hidden>
               <Hidden mdUp>

@@ -49,12 +49,12 @@ class Footer extends Component {
               </div>
               <div className="footer-items">
                 <ul>
-                  <li> <a href="/home">HOME</a> </li>
-                  <li> <a href="/about-us">ABOUT US</a>  </li>
-                  <li> <a href="/doctors">DOCTORS</a>  </li>
-                  <li> <a href="/departments">DEPARTMENTS</a> </li>
-                  <li> <a href="/careers">CAREERS</a> </li>
-                  <li> <a href="/contact-us">CONTACT US</a> </li>
+                  <li> <a href="/home">Home</a> </li>
+                  <li> <a href="/about-us">About Us</a>  </li>
+                  <li> <a href="/doctors">Doctors</a>  </li>
+                  <li> <a href="/departments">Departments</a> </li>
+                  <li> <a href="/careers">Careers</a> </li>
+                  <li> <a href="/contact-us">Contact Us</a> </li>
                 </ul>
               </div>
             </div>

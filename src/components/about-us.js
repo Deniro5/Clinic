@@ -4,19 +4,19 @@ import { browserHistory } from 'react-router';
 
 const awards = [
   {
-    url: 'https://www.petalmd.com/hs-fs/hubfs/blog-138-digitaltransformationawards2019.png?width=900&height=450&name=blog-138-digitaltransformationawards2019.png',
-    title: '2019 Digital Transformation Awards',
-    description: 'Finalist: Artificial Intelligence Disruptor',
+    url: 'https://www.petalmd.com/hs-fs/hubfs/_PetalMD_Sept2018/Images/petalmd-about-channelinnovationawards2018.png?width=600&height=300&name=petalmd-about-channelinnovationawards2018.png',
+    title: '2018 Channel Innovation Awards',
+    description: 'Winner: Best Healthcare Solution',
   },
   {
-    url: 'https://www.petalmd.com/hs-fs/hubfs/blog133-adriq-NL-EN.jpg?width=1300&height=650&name=blog133-adriq-NL-EN.jpg',
-    title: '2019 ADRIQ Innovation Awards Gala',
-    description: 'Finalist: Innovation | SME Award (less than 500 employees)',
+    url: 'https://www.petalmd.com/hs-fs/hubfs/_PetalMD_Sept2018/Images/petalmd-about-medlysawards2018.png?width=600&height=300&name=petalmd-about-medlysawards2018.png',
+    title: '2018 Digital Transformation Awards',
+    description: 'Finalist: Artificial Intelligence Disruptorr',
   },
   {
-    url: 'https://www.petalmd.com/hs-fs/hubfs/event/fideides2019-winner-EN.jpg?width=1200&height=600&name=fideides2019-winner-EN.jpg',
-    title: '2018 ADRIQ Innovation Awards Gala',
-    description: 'Finalist: Innovation | SME Award (less than 500 employees)',
+    url: 'https://www.petalmd.com/hs-fs/hubfs/_PetalMD_Sept2018/Images/petalmd-about-healthinnovationawards.png?width=600&height=300&name=petalmd-about-healthinnovationawards.png',
+    title: '2018 TELUS Health Innovation Gala',
+    description: 'Winner: Optimizing Innovation Technology Award',
   },
   {
     url: 'https://www.petalmd.com/hs-fs/hubfs/_PetalMD_Sept2018/Images/petalmd-about-channelinnovationawards2018.png?width=600&height=300&name=petalmd-about-channelinnovationawards2018.png',

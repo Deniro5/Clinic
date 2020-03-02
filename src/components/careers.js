@@ -45,12 +45,14 @@ class Careers extends Component {
             onChange={(event) => this.handleChange(event)}
             className="input"
             required
+            variant = {"outlined"}
           /> 
           <TextField
             label="Last Name"
             onChange={(event) => this.handleChange(event)}
             className="input"
             required
+            variant = {"outlined"}
           />
         </div>
         <br/>
@@ -59,24 +61,28 @@ class Careers extends Component {
           onChange={(event) => this.handleChange(event)}
           className="input"
           required
+          variant = {"outlined"}
         /> <br/>
         <TextField
           label="Phone"
           onChange={(event) => this.handleChange(event)}
           className="input"
           required
+          variant = {"outlined"}
         /> <br/>
         <TextField
           label="Position you are applying for"
           onChange={(event) => this.handleChange(event)}
           className="input"
           required
+          variant = {"outlined"}
         /> <br/>
         <TextField
           label="Portfolio website"
           onChange={(event) => this.handleChange(event)}
           className="input"
           required
+          variant = {"outlined"}
         /> <br/>
         <div className="file-container">
           <input type="file" id="resume" onChange={(event) => this.handleFileChange(event, 'resume')} />
@@ -93,6 +99,7 @@ class Careers extends Component {
           multiline={true}
           rows={8}
           className="input"
+          variant = {"outlined"}
         /> <br/>
         <Button type="submit" color="primary" variant="contained">Submit</Button>
     </form>

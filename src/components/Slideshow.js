@@ -29,7 +29,6 @@ class TextFields extends React.Component {
         })
    
     }
-   
     //moves to previous slide in rotation
     prev = () => {
         let newcurr;

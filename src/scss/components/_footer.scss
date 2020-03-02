@@ -8,7 +8,6 @@
   }
 
   .footer-columns {
-    margin-left: 22px;
     text-align: center;
     .footer-header {
       font-size: 20px;
@@ -20,7 +19,7 @@
         li {
           color: #c8c8c8; 
           list-style-type: none;
-          font-size: 16px;
+          font-size: 12px;
           margin-top: 12px;
           margin-bottom: 12px;
           word-wrap: break-word;
@@ -48,10 +47,10 @@
   @media only screen and (max-width: 600px) {
     .border {
       display: block;
-      width: 80px;
-      height: 3px;
-      background: white;
-      margin: 20px auto;
+      width: 80%;
+      height: 1px;
+      background: rgb(109, 109, 109);
+      margin: 30px auto;
     }
   }
 
@@ -62,5 +61,9 @@
     background: black;
     text-align: center;
     height: 50px;
+  }
+
+  .footer-columns {
+    margin-left:0px;
   }
 }
