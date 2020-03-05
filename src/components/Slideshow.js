@@ -118,13 +118,13 @@ class TextFields extends React.Component {
     <Fragment>
         <div className="slideshowContainer">
             <div className="mySlides fade" hidden = {this.state.curr !== 1}>
-                <img alt = "" src="../img/product.jpg" style={{width: "100%"}}/>
+                <img alt = "" src="imgs/product.jpg" style={{width: "100%"}}/>
             </div>
             <div className="mySlides fade" hidden = {this.state.curr !== 2}>
-                <img alt = "" src="../img/product1.jpg"  style={{width: "100%"}}/>
+                <img alt = "" src="imgs/product1.jpg"  style={{width: "100%"}}/>
             </div>
             <div className="mySlides fade" hidden = {this.state.curr !== 3}>
-                <img alt = "" src="../img/product2.jpg"  style={{width: "100%"}}/>
+                <img alt = "" src="imgs/product2.jpg"  style={{width: "100%"}}/>
             </div>
             <p className="prev" onClick = {this.prev}>&#10094;</p>
             <p className="next" onClick = {this.next.bind(this,true)}>&#10095;</p>

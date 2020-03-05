@@ -109,7 +109,7 @@ class NavMenu extends Component {
        <div className="nav-menu-1">
        <Grid container spacing={0} align = "center">
           <Grid item xs={6} sm = {4} md = {4} lg = {6}>
-              <img onClick = {this.reroute.bind(this,"/")} alt ="logo" className = "navLogo" src = "../img/logo.png"/>
+              <img onClick = {this.reroute.bind(this,"/")} alt ="logo" className = "navLogo" src = "imgs/logo.png"/>
           </Grid>
           <Grid item xs={6} sm = {8} md = {8} lg = {6}>
               <Hidden smDown>
@@ -123,7 +123,7 @@ class NavMenu extends Component {
               </list>
               </Hidden>
               <Hidden mdUp>
-                <img alt = "" className= "navMenu" onClick={this.toggleDrawer(true)} src = "../img/menu.png"/>
+                <img alt = "" className= "navMenu" onClick={this.toggleDrawer(true)} src = "imgs/menu.png"/>
                 <Drawer anchor="right" open={this.state.right} onClose={this.toggleDrawer(false)}>
                   <div
                     tabIndex={0}

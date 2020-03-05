@@ -23,7 +23,7 @@ class Contact extends Component {
   render(props) {
     return (
         <div className = "contactContainer">
-            <Imgwithtext src = "../img/contact.jpg" text = ""/>
+            <Imgwithtext src = "imgs/contact.jpg" text = ""/>
             <h1> Get in Touch</h1>
             <div className="border"> </div>
             <h4> Please fill out the form below if you have any questions. We will respond as soon as possible. </h4>

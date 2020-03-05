@@ -1,5 +1,6 @@
 import React, {Fragment, Component } from 'react';
-import {Router , Route , browserHistory} from "react-router";
+import {Route , browserHistory} from "react-router";
+import {HashRouter as Router} from "react-router-dom";
 import NavMenu from './nav-menu';  
 import Home from './home';
 import Doctors from './doctors'

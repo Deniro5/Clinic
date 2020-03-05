@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Imgwithtext from './Imgwithtext'
 import Grid from '@material-ui/core/Grid';
 
-var images = ["../img/physiologydepartment.jpg", "../img/cardiologydepartment.jpg", "../img/dentaldepartment.jpg", "../img/rehabdepartment.jpg",]
+var images = ["imgs/physiologydepartment.jpg", "imgs/cardiologydepartment.jpg", "imgs/dentaldepartment.jpg", "imgs/rehabdepartment.jpg",]
 var departmentNames = ["Physiology", "Cardiology", "Dental", "Rehab"]
 var departmentDescriptions = ["Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.",
   "Et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum consectetur adipiscing elit, deleniti exercitation ullamco laboris nisi ut aliquip ex atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.",
@@ -44,7 +44,7 @@ class Department extends Component {
 
     return (
       <div className="departmentContainer">
-        <Imgwithtext src="../img/department.jpg" text="" />
+        <Imgwithtext src="imgs/department.jpg" text="" />
         <h1> Our Departments</h1>
         <div className="border"> </div>
         <h4> Learn more about our state of the art teams. </h4>
@@ -66,7 +66,7 @@ class Department extends Component {
                 <div className="tabSecondaryContent">
                   <div className="tabCircleContainer">
 
-                    <img alt="icon1" src="../img/departmenticon1.png" />
+                    <img alt="icon1" src="imgs/departmenticon1.png" />
                   </div>
                   <p> SAMPLE TITLE </p>
                   <p> {iconDescriptions[this.state.curr][0]} </p>
@@ -75,7 +75,7 @@ class Department extends Component {
               <Grid item xs={12} sm={4} md={4}>
                 <div className="tabSecondaryContent">
                   <div className="tabCircleContainer">
-                    <img alt="icon2" src="../img/departmenticon2.png" />
+                    <img alt="icon2" src="imgs/departmenticon2.png" />
                   </div>
                   <p> SAMPLE TITLE </p>
                   <p> {iconDescriptions[this.state.curr][1]}  </p>
@@ -84,7 +84,7 @@ class Department extends Component {
               <Grid item xs={12} sm={4} md={4}>
                 <div className="tabSecondaryContent">
                   <div className="tabCircleContainer">
-                    <img alt="icon3" src="../img/departmenticon3.png" />
+                    <img alt="icon3" src="imgs/departmenticon3.png" />
                   </div>
                   <p> SAMPLE TITLE </p>
                   <p> {iconDescriptions[this.state.curr][2]} </p>
