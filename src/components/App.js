@@ -1,6 +1,5 @@
 import React, {Fragment, Component } from 'react';
-import {Route , browserHistory} from "react-router";
-import {HashRouter as Router} from "react-router-dom";
+import {HashRouter as Router, Switch, Route } from "react-router-dom";
 import NavMenu from './nav-menu';  
 import Home from './home';
 import Doctors from './doctors'
@@ -16,17 +15,20 @@ class App extends Component {
     return (
       <Fragment>
         <div className="app-container">
+        <Router>
           <NavMenu/>
-          <Router history = {browserHistory}>
-            <Route exact path="/" component={Home} />
-            <Route exact path="/home" component={Home} />
-            <Route exact path="/doctors" component={Doctors} />
-            <Route exact path="/about-us" component={AboutUs} />
-            <Route exact path="/careers" component={Careers} />
-            <Route exact path="/contact-us" component={Contact} />
-            <Route exact path="/departments" component={Department} />
+              <Switch>
+                <Route exact path="/" component={Home} />
+                <Route exact path="/home" component={Home} />
+                <Route exact path="/doctors" component={Doctors} />
+                <Route exact path="/about-us" component={AboutUs} />
+                <Route exact path="/careers" component={Careers} />
+                <Route exact path="/contact-us" component={Contact} />
+                <Route exact path="/departments" component={Department} />
+              </Switch>
+              <Footer/>
           </Router>
-          <Footer />
+
         </div>
       </Fragment>
     );

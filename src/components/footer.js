@@ -3,8 +3,14 @@ import Grid from '@material-ui/core/Grid';
 import LocationOnIcon from '@material-ui/icons/LocationOn';
 import MailOutlineIcon from '@material-ui/icons/MailOutline';
 import PhoneIcon from '@material-ui/icons/Phone';
+import { withRouter } from 'react-router-dom';
 
 class Footer extends Component {
+
+  reroute = (path) => {
+    this.props.history.push(path);
+  }
+
   render() {
     return (
       <div className="footer">
@@ -49,12 +55,12 @@ class Footer extends Component {
               </div>
               <div className="footer-items">
                 <ul>
-                  <li> <a href="/home">Home</a> </li>
-                  <li> <a href="/about-us">About Us</a>  </li>
-                  <li> <a href="/doctors">Doctors</a>  </li>
-                  <li> <a href="/departments">Departments</a> </li>
-                  <li> <a href="/careers">Careers</a> </li>
-                  <li> <a href="/contact-us">Contact Us</a> </li>
+                  <li onClick = {this.reroute.bind(this, "/home")}>Home</li>
+                  <li onClick = {this.reroute.bind(this, "/about-us")}>About Us</li>
+                  <li onClick = {this.reroute.bind(this, "/doctors")}>Doctors</li>
+                  <li onClick = {this.reroute.bind(this, "/departments")}>Departments</li>
+                  <li onClick = {this.reroute.bind(this, "/careers")}>Careers</li>
+                  <li onClick = {this.reroute.bind(this, "/contact-us")}>Contact Us</li>
                 </ul>
               </div>
             </div>
@@ -85,4 +91,4 @@ class Footer extends Component {
   }
 }
 
-export default Footer;
+export default withRouter(Footer);

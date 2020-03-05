@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Grid from '@material-ui/core/Grid';
-import { browserHistory } from 'react-router';
+import { withRouter } from 'react-router-dom';
 
 const awards = [
   {
@@ -38,7 +38,7 @@ const awards = [
 class AboutUs extends Component {
 
   reroute = (path) => {
-    browserHistory.push(path);
+    this.props.history.push(path);
   }
 
   render() {
@@ -115,4 +115,4 @@ class AboutUs extends Component {
   }
 }
 
-export default AboutUs;
+export default withRouter(AboutUs);

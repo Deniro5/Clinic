@@ -10,7 +10,7 @@ import InboxIcon from '@material-ui/icons/Inbox';
 import HomeIcon from '@material-ui/icons/Home';
 import InfoIcon from '@material-ui/icons/Info';
 import PropTypes from 'prop-types';
-import { browserHistory } from 'react-router';
+import { withRouter } from 'react-router-dom';
 import DoctorIcon from '@material-ui/icons/AccountBox';
 import ContactIcon from '@material-ui/icons/ContactSupport';
 import CareerIcon from '@material-ui/icons/Work'
@@ -47,7 +47,7 @@ class NavMenu extends Component {
   };
 
   reroute = (path) => {
-    browserHistory.push(path);
+    this.props.history.push(path);
   }
 
   toggleDrawer = (open) => () => {
@@ -147,4 +147,4 @@ NavMenu.propTypes = {
 };
 
 
-export default withStyles(styles)(NavMenu);
+export default withRouter(withStyles(styles)(NavMenu));
