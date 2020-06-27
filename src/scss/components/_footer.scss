@@ -2,9 +2,9 @@
   background-color: #222222;
   color: #fff;
 
-  .footer-grid{
+  .footer-grid {
     padding-top: 50px;
-    padding-bottom: 50px;    
+    padding-bottom: 50px;
   }
 
   .footer-columns {
@@ -15,9 +15,9 @@
 
     .footer-items {
       ul {
-        padding-left: 0; 
+        padding-left: 0;
         li {
-          color: #c8c8c8; 
+          color: #c8c8c8;
           list-style-type: none;
           font-size: 12px;
           margin-top: 12px;
@@ -28,16 +28,6 @@
           a {
             color: #c8c8c8;
             text-decoration: none;
-          }
-
-          .contact-icon {
-            text-align: left;
-            display: flex;
-            justify-content: center;
-
-            .contact-label {
-              margin-left: 15px;
-            }
           }
         }
       }
@@ -64,6 +54,31 @@
   }
 
   .footer-columns {
-    margin-left:0px;
+    margin-left: 0px;
+  }
+}
+
+.footerContact {
+  margin: auto;
+  width: 300px;
+  text-align: left;
+  transform: translateX(10px);
+  .contact-icon {
+  }
+  li {
+    color: #c8c8c8;
+    list-style-type: none;
+    font-size: 12px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    word-wrap: break-word;
+    white-space: pre-line;
+    cursor: pointer;
+  }
+  .contact-icon {
+    text-align: left;
+    .contact-label {
+      margin-left: 10px;
+    }
   }
 }

@@ -1,210 +1,200 @@
 .departmentContainer {
-    width:100%;
-    background:rgb(243, 243, 243);
+  width: 100%;
+  background: rgb(243, 243, 243);
 }
 
 h1 {
-    margin-top: 50px;
-    margin-bottom: 20px;
-    text-align: center;
-  }
+  margin-top: 50px;
+  margin-bottom: 20px;
+  text-align: center;
+}
 
-  h4 {
-    text-align: center;
-    margin-bottom: 40px;
-    padding-left:20px;
-    padding-right:20px;
-  }
+h4 {
+  text-align: center;
+  margin-bottom: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
 
 .departmentContainer {
   .border {
     display: block;
     width: 80px;
     height: 3px;
-    background: #3366CC;
+    background: #3366cc;
     margin: 20px auto;
   }
-
 }
 
 .tabContainer {
-  width:97%;
+  width: 97%;
   max-width: 1750px;
-  margin:auto;
+  margin: auto;
 }
 
 .tab {
-  display:inline-block;
-  background:#3366CC;
-  padding: 15px 0px ;
+  display: inline-block;
+  background: #3366cc;
+  padding: 15px 0px;
   border-radius: 3px 3px 0px 0px;
-  width:90px;
+  width: 90px;
   text-align: center;
-  margin:0px;
+  margin: 0px;
   color: white;
-  font-weight:bold;
-  font-size:14px;
+  font-weight: bold;
+  font-size: 14px;
   cursor: pointer;
-  transition:0.5s;
-  margin-right:1px;
+  transition: 0.5s;
+  margin-right: 1px;
 }
 
 .tab:hover {
-    background:#003399;
+  background: #003399;
 }
 
 .tabContent {
-  background:white;
-  text-align:center;
+  background: white;
+  text-align: center;
 }
 
-.tabContent p {
-  color:rgb(196, 194, 194);
-  line-height:20px;
-}
-
-.selectedTab:Hover {
-  background:white;
+.selectedTab:hover {
+  background: white;
 }
 
 .tabImage {
-  width:100%;
-  min-width:363px;
+  width: 100%;
+  min-width: 363px;
   max-height: 500px;
-  margin-bottom:30px;
-
+  margin-bottom: 30px;
 }
 
 .tabImageContainer {
   position: relative;
   text-align: center;
   color: white;
-  transition:1s ease-in
+  transition: 1s ease-in;
 }
 
 .tabImageOverlay {
   position: absolute;
   top: 54%;
-  background:rgba(51, 102, 204, 0.6);
-  height:39%;
-  width:100%;
-  text-align:left;
+  background: rgba(51, 102, 204, 0.6);
+  height: 39%;
+  width: 100%;
+  text-align: left;
   padding: 0px 20px;
 }
 
 .tabImageOverlay h1 {
   text-align: left;
-  color:white;
-  opacity:1 ;
+  color: white;
+  opacity: 1;
 }
-
-
 
 .selectedTab {
   color: black;
-  background:white;
+  background: white;
 }
 
-
 .tabImageOverlay p {
-  color:white;  
+  color: white;
 }
 
 .tabCircleContainer {
-  height:150px;
-  width:150px;
-  border-radius:90px;
+  height: 150px;
+  width: 150px;
+  border-radius: 90px;
   border: 2px solid rgb(192, 192, 192);
-  margin-bottom:30px;
-  transition:1s;
+  margin-bottom: 30px;
+  transition: 1s;
 }
 
-.tabCircleContainer img  {
-  margin-top:50px;
+.tabCircleContainer img {
+  margin-top: 50px;
 }
 
 .tabCircleContainer:hover {
-  border: 2px solid #3366CC;
+  border: 2px solid #3366cc;
 }
 
 .tabSecondaryContent {
-  padding:20px;
-  margin:30px;
+  padding: 20px;
+  margin: 30px;
 }
 
+.departmentTitle {
+  color: rgb(65, 65, 65);
+  line-height: 25px;
+  font-size: 14px;
+}
 
-  .inputContainer {
-      width:100%;
-      max-width:600px;
-      line-height: 90px;
-  }
+.departmentDesc {
+  color: grey;
+  line-height: 25px;
+  font-size: 14px;
+}
 
-  
- .input {
-     width:60%;
-     margin-bottom: 400px;
-     text-align:left;
- }
+.inputContainer {
+  width: 100%;
+  max-width: 600px;
+  line-height: 90px;
+}
 
- .button {
-     cursor: pointer;
-     display:block;
-     margin-top: 45px;
-     margin-bottom: 100px;
-     background:#3366CC;
-     height:45px;
-     width:130px;
-     font-size:15px;
-     color:white;
-     border: white 2px solid;
+.input {
+  width: 60%;
+  margin-bottom: 400px;
+  text-align: left;
+}
 
- }
+.button {
+  cursor: pointer;
+  display: block;
+  margin-top: 45px;
+  margin-bottom: 100px;
+  background: #3366cc;
+  height: 45px;
+  width: 130px;
+  font-size: 15px;
+  color: white;
+  border: white 2px solid;
+}
 
- .address {
-     line-height: 15px;
- }
+.address {
+  line-height: 15px;
+}
 
- @media only screen and (max-width: 730px) {
+@media only screen and (max-width: 730px) {
   .tabImageOverlay h1 {
-    margin-top:10px;
-    margin-bottom:10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
- 
 }
 
 @media only screen and (max-width: 600px) {
-
   .tabImageOverlay {
-    top:50%;
+    top: 50%;
   }
 
   .tabImageOverlay h1 {
-   font-size:18px;
+    font-size: 18px;
   }
 
-  .tabImageOverlay p  {
-    font-size:12px;
+  .tabImageOverlay p {
+    font-size: 12px;
   }
 }
 
 @media only screen and (max-width: 500px) {
   .tabImageOverlay {
-    top:48%;
-    display:none;
+    top: 48%;
+    display: none;
   }
-
-
 }
 
 @media only screen and (max-width: 380px) {
   .tab {
-    padding: 15px 0px ;
-    width:73px;
-    font-size:11px;
+    padding: 15px 0px;
+    width: 73px;
+    font-size: 11px;
   }
-
-
 }
-
-
-

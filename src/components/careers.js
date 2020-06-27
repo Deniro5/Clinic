@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import TextField from "@material-ui/core/TextField";
-import Button from "@material-ui/core/Button";
 import Grid from "@material-ui/core/Grid";
 import Imgwithtext from "./Imgwithtext";
 
@@ -36,7 +35,7 @@ class Careers extends Component {
   }
 
   render() {
-    const applitcationForm = (
+    const applicationForm = (
       <form onSubmit={(event) => this.handleSubmit(event)} className='application-form'>
         <div className='full-name'>
           <TextField
@@ -61,7 +60,7 @@ class Careers extends Component {
           className='input'
           required
           variant={"outlined"}
-        />{" "}
+        />
         <br />
         <TextField
           label='Phone'
@@ -69,7 +68,7 @@ class Careers extends Component {
           className='input'
           required
           variant={"outlined"}
-        />{" "}
+        />
         <br />
         <TextField
           label='Position you are applying for'
@@ -77,7 +76,7 @@ class Careers extends Component {
           className='input'
           required
           variant={"outlined"}
-        />{" "}
+        />
         <br />
         <TextField
           label='Portfolio website'
@@ -85,7 +84,7 @@ class Careers extends Component {
           className='input'
           required
           variant={"outlined"}
-        />{" "}
+        />
         <br />
         <div className='file-container'>
           <input
@@ -106,11 +105,14 @@ class Careers extends Component {
           rows={8}
           className='input'
           variant={"outlined"}
-        />{" "}
+        />
         <br />
-        <Button type='submit' color='primary' variant='contained'>
+        <button
+          type='submit'
+          className='button'
+          style={{ margin: "auto", display: "block" }}>
           Submit
-        </Button>
+        </button>
       </form>
     );
 
@@ -125,7 +127,7 @@ class Careers extends Component {
             <h1>Job Application Form</h1>
             <div className='border'> </div>
             <h4>A career with us means a place where your ideas are heard and valued.</h4>
-            {applitcationForm}
+            {applicationForm}
           </div>
         </Grid>
       </div>
