@@ -1,13 +1,13 @@
 {
-  "main.css": "/Clinic/static/css/main.da829971.chunk.css",
-  "main.js": "/Clinic/static/js/main.61eb7bbe.chunk.js",
-  "main.js.map": "/Clinic/static/js/main.61eb7bbe.chunk.js.map",
-  "static/js/1.7785f4ab.chunk.js": "/Clinic/static/js/1.7785f4ab.chunk.js",
-  "static/js/1.7785f4ab.chunk.js.map": "/Clinic/static/js/1.7785f4ab.chunk.js.map",
+  "main.css": "/Clinic/static/css/main.37427ad9.chunk.css",
+  "main.js": "/Clinic/static/js/main.0f8b0aee.chunk.js",
+  "main.js.map": "/Clinic/static/js/main.0f8b0aee.chunk.js.map",
+  "static/js/1.6c53e884.chunk.js": "/Clinic/static/js/1.6c53e884.chunk.js",
+  "static/js/1.6c53e884.chunk.js.map": "/Clinic/static/js/1.6c53e884.chunk.js.map",
   "runtime~main.js": "/Clinic/static/js/runtime~main.459b196f.js",
   "runtime~main.js.map": "/Clinic/static/js/runtime~main.459b196f.js.map",
-  "static/css/main.da829971.chunk.css.map": "/Clinic/static/css/main.da829971.chunk.css.map",
+  "static/css/main.37427ad9.chunk.css.map": "/Clinic/static/css/main.37427ad9.chunk.css.map",
   "index.html": "/Clinic/index.html",
-  "precache-manifest.eeb6652345b662f3badabb1fe7e228fc.js": "/Clinic/precache-manifest.eeb6652345b662f3badabb1fe7e228fc.js",
+  "precache-manifest.dd2879c690cedc69284b05024ad0c672.js": "/Clinic/precache-manifest.dd2879c690cedc69284b05024ad0c672.js",
   "service-worker.js": "/Clinic/service-worker.js"
 }
