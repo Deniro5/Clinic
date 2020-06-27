@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "0f8b0aeea7dfb62a5bef",
-    "url": "/Clinic/static/css/main.37427ad9.chunk.css"
+    "revision": "3eb452350cba7abc2936",
+    "url": "/Clinic/static/css/main.76faa5ee.chunk.css"
   },
   {
-    "revision": "0f8b0aeea7dfb62a5bef",
-    "url": "/Clinic/static/js/main.0f8b0aee.chunk.js"
+    "revision": "3eb452350cba7abc2936",
+    "url": "/Clinic/static/js/main.3eb45235.chunk.js"
   },
   {
     "revision": "6c53e88411cdffa01421",
@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/Clinic/static/js/runtime~main.459b196f.js"
   },
   {
-    "revision": "0fa383e43e563435f2ebc223a6d266f7",
+    "revision": "1cd82a05e12a26a8283e8918ccf32391",
     "url": "/Clinic/index.html"
   }
 ];
