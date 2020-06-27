@@ -51,6 +51,7 @@
     background: black;
     text-align: center;
     height: 50px;
+    font-size: 12px;
   }
 
   .footer-columns {
@@ -60,11 +61,10 @@
 
 .footerContact {
   margin: auto;
-  width: 300px;
+  width: 320px;
   text-align: left;
-  transform: translateX(10px);
-  .contact-icon {
-  }
+  transform: translateX(25px);
+
   li {
     color: #c8c8c8;
     list-style-type: none;

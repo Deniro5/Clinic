@@ -21,20 +21,35 @@ class Footer extends Component {
                 <ul>
                   <li>
                     <div className='contact-icon'>
-                      <LocationOnIcon />
-                      <span className='contact-label'>{"340 King St E, Toronto ON"}</span>
+                      <table>
+                        <LocationOnIcon />
+
+                        <td style={{ transform: "translateY(-6px)" }}>
+                          <span className='contact-label'>
+                            {"340 King St E, Toronto ON"}
+                          </span>
+                        </td>
+                      </table>
                     </div>
                   </li>
                   <li>
                     <div className='contact-icon'>
-                      <MailOutlineIcon />
-                      <span className='contact-label'>info@Healthcare.com</span>
+                      <table>
+                        <MailOutlineIcon />
+                        <td style={{ transform: "translateY(-6px)" }}>
+                          <span className='contact-label'>info@Healthcare.com</span>
+                        </td>
+                      </table>
                     </div>
                   </li>
                   <li>
                     <div className='contact-icon'>
-                      <PhoneIcon />
-                      <span className='contact-label'>+1-416-555-0166</span>
+                      <table>
+                        <PhoneIcon />
+                        <td style={{ transform: "translateY(-6px)" }}>
+                          <span className='contact-label'>+1-416-555-0166</span>
+                        </td>
+                      </table>
                     </div>
                   </li>
                 </ul>

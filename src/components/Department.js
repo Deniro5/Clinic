@@ -107,8 +107,14 @@ class Department extends Component {
                   <div className='tabCircleContainer'>
                     <img alt='icon1' src='imgs/departmenticon1.png' />
                   </div>
-                  <p className='departmentTitle'> SAMPLE TITLE </p>
-                  <p className='departmentDesc'>{iconDescriptions[this.state.curr][0]}</p>
+                  <table>
+                    <tr>
+                      <p className='departmentTitle'> SAMPLE TITLE </p>
+                    </tr>
+                    <p className='departmentDesc'>
+                      {iconDescriptions[this.state.curr][0]}
+                    </p>
+                  </table>
                 </div>
               </Grid>
               <Grid item xs={12} sm={4} md={4}>
