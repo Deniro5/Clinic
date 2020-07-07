@@ -118,7 +118,7 @@ class Careers extends Component {
 
     return (
       <div className='job-application'>
-        <Imgwithtext src='/imgs/careers.jpg' text='' />
+        <Imgwithtext src='imgs/careers.jpg' text='' />
         <Grid container justify='center' alignItems='center'>
           <div className='container'>
             <h1>Job Application Form</h1>
