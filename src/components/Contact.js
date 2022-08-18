@@ -13,7 +13,6 @@ class Contact extends Component {
 
   handleSubmit(e) {
     e.preventDefault();
-    console.log("submitted");
   }
 
   handleChange(e) {
@@ -62,11 +61,11 @@ class Contact extends Component {
           <Grid item xs={12} sm={6} md={6}>
             <div className='address'>
               <p>
-                <b>Woburn Clinic</b>
+                <b>Fake Clinic</b>
               </p>
-              <p> 1000 Lawrence Road, Unit 10</p>
-              <p> Scarborough, Ontario</p>
-              <p> L2K 7N4</p>
+              <p> 1000 Fake Road, Unit 10</p>
+              <p> Faketown, Ontario</p>
+              <p> L12 734</p>
               <p> Canada</p>
               <br />
               <p>
@@ -76,7 +75,7 @@ class Contact extends Component {
                 <b>Fax:</b> 231-132-4127
               </p>
               <p>
-                <b>Email:</b> info@healthcare.com
+                <b>Email:</b> fakeinfo@healthcare.com
               </p>
             </div>
           </Grid>
